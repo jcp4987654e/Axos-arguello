@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Final: Acoso Laboral en Argentina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('https://placehold.co/1200x600/1a202c/ffffff?text=Ambiente+Laboral+Seguro') no-repeat center center;
+            background-size: cover;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h2 class="text-2xl font-bold text-slate-900">Presentación Integral</h2>
+            <div class="hidden md:flex space-x-6">
+                <a href="#marco-legal" class="text-slate-600 hover:text-blue-600 font-semibold">Marco Legal</a>
+                <a href="#tolerancia-cero" class="text-slate-600 hover:text-blue-600 font-semibold">Tolerancia Cero</a>
+                <a href="#casos-reales" class="text-slate-600 hover:text-blue-600 font-semibold">Casos Reales</a>
+                <a href="#guia-accion" class="text-slate-600 hover:text-blue-600 font-semibold">Guía de Acción</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Acoso Sexual en el Ámbito Laboral</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-300">
+                Una guía sobre el marco legal, la prevención activa y los casos que definen la lucha contra esta problemática en Argentina.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Marco Legal Section -->
+        <section id="marco-legal" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">El Paraguas Normativo que Nos Protege</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="card bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h8a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.75 4.5l-1.5 1.5M16.25 4.5l1.5 1.5"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Constitución Nacional</h3>
+                    <p class="text-slate-600">Garantiza condiciones de trabajo dignas y la jerarquía de tratados contra la violencia.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Ley de Contrato de Trabajo</h3>
+                    <p class="text-slate-600">Define el acoso como injuria laboral grave y exige al empleador garantizar la seguridad.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h8a2 2 0 002-2v-1a2 2 0 012-2h1.945M12 6.253v11.494M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Convenio 190 OIT</h3>
+                    <p class="text-slate-600">Norma específica que obliga a prevenir, sancionar y reparar en todos los sectores laborales.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="card bg-white p-6 rounded-lg shadow-md text-center">
+                     <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Leyes Específicas</h3>
+                    <p class="text-slate-600">Como la Ley 26.485 (Protección a Mujeres) y normativas provinciales que refuerzan la protección.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tolerancia Cero y Concientización Section -->
+        <section id="tolerancia-cero" class="mb-20 bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">Cultura de Tolerancia Cero: Prevención y Concientización</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-4">La Política de Tolerancia Cero no es un slogan, es un plan de acción basado en 3 pilares:</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><span class="bg-blue-600 text-white rounded-full w-6 h-6 text-center font-bold mr-3 inline-block">1</span><div><strong class="block">Prevención Activa:</strong> Implementar protocolos claros, difundirlos y habilitar múltiples canales de denuncia seguros y confidenciales.</div></li>
+                        <li class="flex items-start"><span class="bg-blue-600 text-white rounded-full w-6 h-6 text-center font-bold mr-3 inline-block">2</span><div><strong class="block">Investigación Seria:</strong> Garantizar procesos de investigación internos que sean rápidos, imparciales, y protejan la confidencialidad y la integridad de la víctima.</div></li>
+                        <li class="flex items-start"><span class="bg-blue-600 text-white rounded-full w-6 h-6 text-center font-bold mr-3 inline-block">3</span><div><strong class="block">Sanción Efectiva:</strong> Aplicar las sanciones previstas en el protocolo de manera consistente y proporcional a la falta, incluyendo el despido con causa.</div></li>
+                    </ul>
+                </div>
+                <div>
+                     <h3 class="text-2xl font-semibold text-teal-800 mb-4">La Concientización es la principal herramienta de prevención:</h3>
+                     <ul class="space-y-4">
+                        <li class="flex items-start"><svg class="w-6 h-6 text-teal-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><strong class="block">Capacitaciones Obligatorias:</strong> Formar a todo el personal, sin importar la jerarquía, sobre qué es el acoso, cómo identificarlo y cuáles son los procedimientos.</div></li>
+                        <li class="flex items-start"><svg class="w-6 h-6 text-teal-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-2.236 9.168-5.514C18.332 12.89 14.482 19 10 19M5 13h2a3 3 0 013 3v2a3 3 0 01-3 3H5a3 3 0 01-3-3v-2a3 3 0 013-3z"></path></svg><div><strong class="block">Comunicación Continua:</strong> Mantener el tema visible a través de campañas internas, cartelería y recordatorios periódicos sobre la política de tolerancia cero.</div></li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jurisprudencia Section -->
+        <section id="casos-reales" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">Casos Reales y Jurisprudencia Relevante</h2>
+            <div class="space-y-8">
+                <!-- Caso 1 -->
+                <div class="card bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6">
+                    <svg class="w-20 h-20 text-red-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-slate-800 mb-2">Fallo "C., S. G. c/ Cencosud S.A.": La responsabilidad por omisión</h3>
+                        <p class="text-slate-600 mb-3">Una empleada fue acosada por su superior. La empresa minimizó la denuncia y no activó un protocolo adecuado. La trabajadora se consideró despedida.</p>
+                        <p class="font-semibold text-green-700"><strong>Sentencia:</strong> La Justicia condenó a la empresa a indemnizarla por daño moral. Se determinó que incumplió su deber de seguridad (Art. 75 LCT) al no proveer un ambiente de trabajo seguro ni tomar medidas efectivas.</p>
+                    </div>
+                </div>
+                <!-- Caso 2 -->
+                <div class="card bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6">
+                    <svg class="w-20 h-20 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-slate-800 mb-2">Caso de Acoso por Terceros: La responsabilidad se extiende</h3>
+                        <p class="text-slate-600 mb-3">Una trabajadora fue acosada por un capacitador externo durante un curso obligatorio organizado por la empresa.</p>
+                        <p class="font-semibold text-green-700"><strong>Sentencia:</strong> Se reafirmó la responsabilidad solidaria del empleador. La empresa es responsable de garantizar un entorno seguro en TODAS las actividades vinculadas al trabajo, como lo establece el Convenio 190 de la OIT.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guía de Acción Section -->
+        <section id="guia-accion" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">Guía de Acción: ¿Qué Hacer si sos Víctima o Testigo?</h2>
+             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">1. Documentar Todo</h3>
+                    <p class="text-slate-600">Guardá correos, mensajes, anotá fechas, horas, lugares y posibles testigos. El registro es clave.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V10a2 2 0 012-2h8z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">2. Buscar Apoyo</h3>
+                    <p class="text-slate-600">Hablá con alguien de confianza (compañero, familiar) y buscá asesoramiento en tu gremio.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13V7m0 13a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 7h.01"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">3. Conocer los Canales</h3>
+                    <p class="text-slate-600">Identificá los canales de denuncia internos. Si no son seguros, acudí directamente al sindicato.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m0 18a9 9 0 009-9m-9 9a9 9 0 00-9-9"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">4. Asesoramiento Legal</h3>
+                    <p class="text-slate-600">Consultá con un/a abogado/a laboralista o acudí a la Oficina de Asesoramiento sobre Violencia Laboral (OAVL).</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-10">
+        <div class="container mx-auto text-center px-6">
+            <h3 class="text-2xl font-bold mb-2">La única política posible es la Tolerancia Cero.</h3>
+            <p class="text-slate-400">Crear una cultura de trabajo segura y respetuosa es una responsabilidad indelegable de la empresa y un derecho de todos los trabajadores.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
